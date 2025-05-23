@@ -61,17 +61,19 @@ mvn spring-boot:run
 
 ### 🎲 Jogos
 
+Exemplo de Uso:
+
 #### Listar todos os jogos
 
-```http
-GET /games
-```
+- Para obter todos os jogos, faça uma requisição para:
+- http://localhost:8080/games
+- ou use Postman
 
-#### Buscar jogo por ID
+#### Esta requisição retorna os detalhes de um jogo específico, onde {id} é o identificador único do jogo.
 
-```http
-GET /games/{id}
-```
+- Para obter um jogo com ID 1, faça uma requisição para:
+- http://localhost:8080/games/1
+- ou use Postman
 
 **Exemplo de resposta:**
 
@@ -92,16 +94,13 @@ GET /games/{id}
 ### 📋 Listas de Jogos
 
 #### Listar todas as listas
-
-```http
-GET /lists
-```
+- Para obter a lista
+- http://localhost:8080/lists
+- ou use Postman
 
 #### Buscar jogos de uma lista específica
-
-```http
-GET /lists/{listId}/games
-```
+- http://localhost:8080/lists/2/games
+- ou use Postman
 
 #### Reordenar jogos em uma lista
 
