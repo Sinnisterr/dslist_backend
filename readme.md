@@ -227,8 +227,8 @@ mvn clean package -Pprod
 
 **Willian Bruno**
 
-- GitHub: [@seu-usuario](https://github.com/Sinnisterr)
-- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/willian-bruno-28924082/)
+- GitHub: (https://github.com/Sinnisterr)
+- LinkedIn: (https://www.linkedin.com/in/willian-bruno-28924082/)
 
 ## 🙏 Agradecimentos
 
